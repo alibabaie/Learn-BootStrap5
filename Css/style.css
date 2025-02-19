@@ -1,6 +1,11 @@
-/* @media screen and (min-width:500px){
-    .mydiv{
-        margin: auto 50px;
-        padding: 10px;
-    }
-} */
+ .row{
+    /* height: 50px; */
+    /* background-color: aqua; */
+    margin-top: 10px;
+} 
+
+ .exam{
+    height: 50px;
+    background-color: aqua;
+    border: 2px solid red;
+}
