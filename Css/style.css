@@ -1,12 +1,22 @@
- .row{
-     margin-top: 20px;  
-} 
-
+ 
  .exam{
-    /* background-color: aqua;
-    border: 1px solid red; */
-    height: auto;
-    text-align: center;
-    padding: 10px;
+text-align: center;
+background-color: hwb(103 0% 0%);
+border: 1px solid black;
 }
 
+.exam1{
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.exam2{
+    text-align: center;
+    background-color: rgb(230, 13, 219);
+    border: 1px solid black;
+}
+
+.container{
+    margin-top: 50px;
+}
