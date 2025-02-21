@@ -7,4 +7,10 @@
     background-color: aqua;
     border: 1px solid red;
     height: 50px;
+    text-align: center;
+}
+
+p{
+    display: inline;
+    padding-top: 100px;
 }
