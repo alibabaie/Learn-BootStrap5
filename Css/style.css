@@ -1,1 +1,18 @@
 
+body{
+    background-color: darkgrey;
+   height: 1000px;
+}
+
+li a{
+    text-decoration: none;
+    color: chartreuse;
+}
+
+li a:hover{
+    color: black;
+}
+
+li:hover{
+    border-bottom: 2px solid black;
+}
