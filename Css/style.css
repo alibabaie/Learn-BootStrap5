@@ -2,39 +2,40 @@
     font-family: iranyekan;
     font-style: normal;
     font-weight: normal;
-    src: url('../Fonts/iranyekan/eot/iranyekanwebregular\(fanum\).eot');
-    src: url('../Fonts/iranyekan/ttf/iranyekanwebregular\(fanum\).ttf');
-    src: url('../Fonts/iranyekan/woff/iranyekanweblight\(fanum\).woff') ,
+    src: url('../Fonts/iranyekan/eot/iranyekanwebregular\(fanum/).eot');
+    src: url('../Fonts/iranyekan/ttf/iranyekanwebregular\(fanum\).ttf'),
+    url('../Fonts/iranyekan/woff/iranyekanweblight\(fanum\).woff'),
     url('../Fonts/iranyekan/woff2/iranyekanwebregular\(fanum\).woff2');
 }
 
 *{
-    font-family: iranyekan;
+    font-family:iranyekan ;
 }
-
 body{
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-
 .mobile-nav li a{
-padding: 15px;
-color: white;
+    padding: 15px;
+    color: white;
 }
-
 .mobile-nav li a:hover{
-    color: yellowgreen;
-    border-bottom: 1px solid yellowgreen;
+    color: #198754;
+    border-bottom: 1px solid #198754;
 }
-
 .sm-nav li a{
     padding: 15px;
     color: white;
     text-decoration: none;
 }
-
 .sm-nav li a:hover{
-    color: yellowgreen;
-    border-bottom: 1px solid yellowgreen;
+    color: #198754;
+    border-bottom: 1px solid #198754;
+}
+.main{
+    margin-bottom: 75px;
+}
+#contact{
+    margin-top: 50px;
 }
