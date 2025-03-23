@@ -18,86 +18,51 @@
 
 <body>
 
-<div class="container">
-    <div class="dropdown">
-        <a class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" id="mydropdown">Ali</a>
-        <ul class="dropdown-menu" aria-labelledby="mydropdown">
-            <li class="dropdown-header"><h5>Amir Hossain</h5></li>
-            <li class="dropdown-item active">Register</li>
-            <li class="dropdown-item">Login</li>
-            <li class="dropdown-item">Account</li>
-            <hr class="dropdown-divider">
-            <li class="dropdown-item disabled">Admin</li>
+<nav class="navbar navbar-expand-sm navbar-light">
+
+    <div class="container">
+
+        <a href="#" class="navbar-brand">Ali</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="bi bi-menu-button-wide"></span>
+        </button>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+    
+            <li class="nav-item dropdown">
+    
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="mydrop">Pages</a>
+    
+            <ul class="dropdown-menu" aria-labelledby="mydrop">
+            <li class="dropdown-item active">Link</li>
+            <li class="dropdown-item">Link</li>
+            <li class="dropdown-item">Link</li>
+            <li class="dropdown-item disabled">Link</li>
+            </ul>
+
+            </li>
+    
+            <li class="nav-item"><a class="nav-link disabled" href="#">Admin</a></li>
         </ul>
+       
+        <form action="" class="d-flex pt-3">
+            <input type="text" class="form-control" placeholder="جستجو ...">
+            <button class="btn btn-outline-info" type="submit">
+                <span class="bi bi-search"></span>
+            </button>
+        </form>
+
     </div>
 
-    <hr>
-    <hr>
-    <hr>
-
-    <div class="btn-group dropdown">
-        <button class="btn btn-dark">Ali</button>
-        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" id="mydropdown"></button>
-        <ul class="dropdown-menu" aria-labelledby="mydropdown">
-            <li class="dropdown-header"><h5>Amir Hossain</h5></li>
-            <li class="dropdown-item active">Register</li>
-            <li class="dropdown-item">Login</li>
-            <li class="dropdown-item">Account</li>
-            <hr class="dropdown-divider">
-            <li class="dropdown-item disabled">Admin</li>
-        </ul>
     </div>
 
-    <!--  -->
-
-    <div class="btn-group dropdown dropend">
-        <button class="btn btn-dark">Ali</button>
-        <button class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" id="mydropdown"></button>
-        <ul class="dropdown-menu" aria-labelledby="mydropdown">
-            <li class="dropdown-header"><h5>Amir Hossain</h5></li>
-            <li class="dropdown-item active">Register</li>
-            <li class="dropdown-item">Login</li>
-            <li class="dropdown-item">Account</li>
-            <hr class="dropdown-divider">
-            <li class="dropdown-item disabled">Admin</li>
-        </ul>
-    </div>
-
-    <!--  -->
-
-    <div class="btn-group dropdown">
-        <button class="btn btn-dark">Ali</button>
-        <button class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" id="mydropdown"></button>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="mydropdown">
-            <li class="dropdown-header"><h5>Amir Hossain</h5></li>
-            <li class="dropdown-item active">Register</li>
-            <li class="dropdown-item">Login</li>
-            <li class="dropdown-item">Account</li>
-            <hr class="dropdown-divider">
-            <li class="dropdown-item disabled">Admin</li>
-        </ul>
-    </div>
-
-    <!--  -->
-
-    <hr>
-    <hr>
-    <hr>
-
-    <div class="dropdown">
-        <a class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="false" id="mydropdown" style="margin-left: 200px;">Ali Babaie Aghamolkie Bootstarap</a>
-        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-md-start" aria-labelledby="mydropdown">
-            <li class="dropdown-header"><h5>Amir Hossain</h5></li>
-            <li class="dropdown-item active">Register</li>
-            <li class="dropdown-item">Login</li>
-            <li class="dropdown-item">Account</li>
-            <li><span class="dropdown-item-text">Ali Babaie</span></li>
-            <hr class="dropdown-divider">
-            <li class="dropdown-item disabled">Admin</li>
-        </ul>
-    </div>
-
-</div>
+</nav>
 
 
 
