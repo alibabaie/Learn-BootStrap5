@@ -13,56 +13,149 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Dropdown</title>
+    <title>Offcanvas</title>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-light">
+    <!-- <h1>Ali</h1>
+    <h3>Babaie</h3> -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand">Ali</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav navbar-nav-scroll me-auto" style="--bs-scroll-height: 150px;">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+
+                    <li class="nav-item dropdown">
+
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="mydrop">Pages</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="mydrop">
+                            <li class="dropdown-item active">Link</li>
+                            <li class="dropdown-item">Link</li>
+                            <li class="dropdown-item">Link</li>
+                            <li class="dropdown-item disabled">Link</li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link disabled" href="#">Admin</a></li>
+                    <!-- <li class="nav-item align-self-center"><span class="navbar-text">Bootstrap 5</span></li> -->
+                </ul>
+
+                <form action="" class="d-flex pt-3">
+                    <input type="text" class="form-control" placeholder="جستجو ...">
+                    <button class="btn btn-outline-info" type="submit">
+                        <span class="bi bi-search"></span>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Offcanvas -->
+
 
     <div class="container">
 
-        <a href="#" class="navbar-brand">Ali</a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-            <span class="bi bi-menu-button-wide"></span>
-        </button>
-    
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="navbar-nav me-auto">
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
-    
-            <li class="nav-item dropdown">
-    
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="mydrop">Pages</a>
-    
-            <ul class="dropdown-menu" aria-labelledby="mydrop">
-            <li class="dropdown-item active">Link</li>
-            <li class="dropdown-item">Link</li>
-            <li class="dropdown-item">Link</li>
-            <li class="dropdown-item disabled">Link</li>
-            </ul>
 
-            </li>
-    
-            <li class="nav-item"><a class="nav-link disabled" href="#">Admin</a></li>
-        </ul>
-       
-        <form action="" class="d-flex pt-3">
-            <input type="text" class="form-control" placeholder="جستجو ...">
-            <button class="btn btn-outline-info" type="submit">
-                <span class="bi bi-search"></span>
-            </button>
-        </form>
+    <a href="#myoffcanvas" class="btn btn-danger float-end" data-bs-toggle="offcanvas">
+        offcanvas
+    </a>
 
+    <div class="offcanvas show offcanvas-start bg-success text-light" data-bs-backdrop="false" data-bs-scroll="true"  id="myoffcanvas">
+        <a href="#" class="btn btn-close ms-auto me-2 mt-2" data-bs-dismiss="offcanvas"></a>
+        <div class="offcanvas-header">
+            <h2 class="offcanvas-title">Hello Amir Hossain !!!!!!!</h2>
+        </div>
+
+        <div class="offcanvas-body">
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur doloremque cupiditate nulla. Dolore, magnam autem totam quos cumque est ducimus, accusamus culpa quaerat porro beatae itaque libero! Fugit, placeat ipsum.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur doloremque cupiditate nulla. Dolore, magnam autem totam quos cumque est ducimus, accusamus culpa quaerat porro beatae itaque libero! Fugit, placeat ipsum.
+            </p>
+
+        </div>
     </div>
 
-    </div>
 
-</nav>
+
+
+    <!-- ----------- -->
+
+
+
+
+        <h1>Ali</h1>
+        <h3>Babaie</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias hic dicta fugit minima sit aliquam
+            officiis saepe maiores. Quidem quae quisquam omnis ad quod quos vero a autem iste.
+        </p>
+
+        
+    </div>
 
 
 
