@@ -13,32 +13,50 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Pagination</title>
+    <title>Placeholder</title>
 </head>
 
 <body>
 
-   
-
 <div class="container">
-    <nav>
-        <ul class="pagination pagination-lg justify-content-center">
-          <li class="page-item disabled">
-            <a class="page-link rounded-pill border-danger text-danger" href="#">
-                <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-          <li class="page-item"><a class="page-link rounded-pill border-success bg-success text-light" href="#">1</a></li>
-          <li class="page-item"><a class="page-link rounded-pill border-success" href="#">2</a></li>
-          <li class="page-item"><a class="page-link rounded-pill border-success" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link rounded-pill border-success" href="#">
-                <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-        </ul>
-      </nav>   
-</div> 
+    <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+      
+      <p class="placeholder-wave">
+        <span class="placeholder col-12"></span>
+      </p>    
+<div class="row row-cols-2">
+    <div class="card col">
+        <img src="./img/1.jpg" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+      <div class="card col" aria-hidden="true">
+        <img src="./img/1.jpg" class="card-img-top placeholder" alt="...">
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder w-50"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7 bg-info placeholder-lg"></span>
+            <span class="placeholder col-7 bg-danger placeholder-sm"></span>
+            <span class="placeholder col-7 bg-warning placeholder-xs"></span>
+            <span class="placeholder col-6 bg-success"></span>
+            <span class="placeholder col-8 bg-primary"></span>
+          </p>
+          <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+        </div>
+      </div> 
+</div>   
+</div>   
+
+ 
 
 
 
