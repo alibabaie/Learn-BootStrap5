@@ -13,32 +13,51 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Pagination</title>
+    <title>Popover</title>
 </head>
 
 <body>
+<!--  -->
+<div class="container mt-5">
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Ali Babaie" 
+  data-bs-content="Mazandaran">
+  Babol
+  </button>
+</div>  
 
-   
+<div class="container mt-5 pb-5">
+  <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Amir Hossain Babaie" 
+  data-bs-content="Mazandaran" data-bs-trigger="focus">
+  Babol
+  </button>
+</div>
 
-<div class="container">
-    <nav>
-        <ul class="pagination pagination-lg justify-content-center">
-          <li class="page-item disabled">
-            <a class="page-link rounded-pill border-danger text-danger" href="#">
-                <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-          <li class="page-item"><a class="page-link rounded-pill border-success bg-success text-light" href="#">1</a></li>
-          <li class="page-item"><a class="page-link rounded-pill border-success" href="#">2</a></li>
-          <li class="page-item"><a class="page-link rounded-pill border-success" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link rounded-pill border-success" href="#">
-                <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-        </ul>
-      </nav>   
-</div> 
+<div class="container mt-5 pb-5">
+  <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" data-bs-title="Zeynab Babaie" 
+  data-bs-content="Mazandaran" data-bs-trigger=" hover focus">
+  Babol
+  </button>
+</div>
+
+<!--  -->
+
+<div class="container mt-5">
+  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+    Popover on top
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+    Popover on right
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+    Popover on bottom
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+    Popover on left
+  </button>  
+</div>
+
+<!--  -->
+
 
 
 
