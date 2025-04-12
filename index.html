@@ -13,88 +13,37 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Toasts</title>
+    <title>Tooltips</title>
 </head>
 
-<body class="bg-info">
+<body>
 
-<div class="container">
+<div class="container mt-4 ms-4">
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ali">
+    Tooltip on top
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ali">
+    Tooltip on right
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Ali">
+    Tooltip on bottom
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Ali">
+    Tooltip on left
+  </button>
 
-  <!-- Basic  -->
+  <hr>
+  <hr>
 
-   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <img src="..." class="rounded me-2" alt="...">
-      <strong class="me-auto">Ali</strong>
-      <small>11 mins ago</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga natus repellat repudiandae cum ducimus autem aspernatur voluptas maxime omnis perferendis totam, sunt pariatur eaque animi qui eveniet voluptatum sapiente placeat.
-    </div>
-  </div>  
-
-  <!-- Live example -->
-
-   <p  class="text-primary" id="liveToastBtn">Learning Bootstrap 5 !!!</p>
-
-  <div class="toast-container position-fixed top-0 end-0 p-3">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small>11 mins ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-      <div class="toast-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis consequuntur reprehenderit reiciendis dicta porro numquam assumenda ratione! Sit quis ipsum quo! Blanditiis doloremque ut quisquam eius placeat autem ad tenetur!
-      </div>
-    </div>
-  </div>  
-
-  <!-- Stacking  -->
-
-  <div class="toast-container position-static">
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small class="text-body-secondary">just now</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-      <div class="toast-body">
-        See? Just like this.
-      </div>
-    </div>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
+  data-bs-title="<em class='h2'>Tooltip</em> <u class='h3 text-success'>with</u> <b>HTML</b>">
+    Tooltip with HTML
+  </button> 
   
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small class="text-body-secondary">2 seconds ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-      <div class="toast-body">
-        Heads up, toasts will stack automatically
-      </div>
-    </div>
-  </div> 
-  
-  <!--  -->
+  <hr>
+  <hr>
 
-  <div class="toast-container position-absolute start-50 top-50 translate-middle p-3" id="toastPlacement">
-    <div class="toast">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small>11 mins ago</small>
-      </div>
-      <div class="toast-body">
-        Hello, world! This is a toast message.
-      </div>
-    </div>
-  </div>
-
+<img src="./img/smartphone.png" class="m-5" height="150px" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Amir Hossain">  
 </div>
 
 
