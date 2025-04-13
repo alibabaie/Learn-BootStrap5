@@ -13,37 +13,60 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Tooltips</title>
+    <title>Forms</title>
 </head>
 
 <body>
 
-<div class="container mt-4 ms-4">
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ali">
-    Tooltip on top
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ali">
-    Tooltip on right
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Ali">
-    Tooltip on bottom
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Ali">
-    Tooltip on left
-  </button>
+<div class="container">
+<form action="#" method="get">
+<h3>Send Yuor Information</h3>
 
-  <hr>
-  <hr>
+<div class="my-3">
+<label class="form-label" for="">Name</label> 
+<input class="form-control" type="text"> 
+</div>
 
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" 
-  data-bs-title="<em class='h2'>Tooltip</em> <u class='h3 text-success'>with</u> <b>HTML</b>">
-    Tooltip with HTML
-  </button> 
-  
-  <hr>
-  <hr>
+<div class="my-3">
+<label class="form-label" for="">Family</label> 
+<input class="form-control form-control-sm" type="text"> 
+</div>
 
-<img src="./img/smartphone.png" class="m-5" height="150px" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Amir Hossain">  
+<div class="my-3">
+<label class="form-label" for="">Age</label> 
+<input class="form-control form-control-lg" type="number"> 
+</div>
+
+<div class="my-3">
+<label class="form-label" for="">Family</label> 
+<input class="form-control-sm" type="text"> 
+</div>
+
+<div class="my-3">
+<label class="form-label" for="">Email</label> 
+<input class="form-control " type="email" disabled> 
+</div>
+
+<div class="my-3">
+<label class="form-label" for="">Email</label> 
+<input class="form-control-plaintext" type="email" value="InfSo@ ... .com" readonly> 
+</div>
+
+<div class="my-3">
+<label class="form-label" for="">City</label> 
+<input class="form-control" list="cities"> 
+<datalist id="cities">
+<option value="Mazandaran"></option>
+<option value="Esfahan"></option>
+<option value="Gilan"></option>  
+</datalist>
+</div>
+
+<div>
+<input type="submit" class="btn btn-success" value="Send">  
+</div>
+
+</form>  
 </div>
 
 
