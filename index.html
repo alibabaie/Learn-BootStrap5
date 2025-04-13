@@ -13,57 +13,115 @@
     <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="./Css/style.css">
-    <title>Forms</title>
+    <title>Forms 2</title>
 </head>
 
 <body>
 
 <div class="container">
 <form action="#" method="get">
-<h3>Send Yuor Information</h3>
 
 <div class="my-3">
-<label class="form-label" for="">Name</label> 
-<input class="form-control" type="text"> 
+<label class="form-label" for="">File</label> 
+<input type="file" class="form-control" name="" id="">   
 </div>
 
-<div class="my-3">
-<label class="form-label" for="">Family</label> 
-<input class="form-control form-control-sm" type="text"> 
-</div>
+<hr>
+<hr>
 
 <div class="my-3">
-<label class="form-label" for="">Age</label> 
-<input class="form-control form-control-lg" type="number"> 
+<label class="form-label" for="">Color</label> 
+<input type="color" class="form-control form-control-color" value="#357845"  name="" id="">   
 </div>
 
-<div class="my-3">
-<label class="form-label" for="">Family</label> 
-<input class="form-control-sm" type="text"> 
-</div>
-
-<div class="my-3">
-<label class="form-label" for="">Email</label> 
-<input class="form-control " type="email" disabled> 
-</div>
-
-<div class="my-3">
-<label class="form-label" for="">Email</label> 
-<input class="form-control-plaintext" type="email" value="InfSo@ ... .com" readonly> 
-</div>
+<hr>
+<hr>
 
 <div class="my-3">
 <label class="form-label" for="">City</label> 
-<input class="form-control" list="cities"> 
-<datalist id="cities">
-<option value="Mazandaran"></option>
-<option value="Esfahan"></option>
-<option value="Gilan"></option>  
-</datalist>
+<select class="form-select form-select-lg" name="" id="">
+<option value="1">Babol</option>
+<option value="2">Amol</option>
+<option value="3">Sari</option>    
+</select>  
 </div>
 
+<hr>
+<hr>
+
+<div class="my-3">
+<input type="checkbox" name="" id=""> 
+<label for="">CheckBox 1</label>  
+</div>
+
+<div class="my-3 form-check">
+<input class="form-check-input" type="checkbox" name="" id=""> 
+<label class="form-check-label" for="">CheckBox 2</label>  
+</div>
+
+<hr>
+<hr>
+
+<div class="my-3">
+<input type="radio" name="" id=""> 
+<label for="">CheckBox 1</label>  
+</div>
+
+<hr>
+<hr>
+    
+<div class="my-3 form-check">
+<input class="form-check-input" type="radio" name="" id=""> 
+<label class="form-check-label" for="">CheckBox 2</label>  
+</div>
+
+    
+<div class="my-3 form-check form-switch">
+<input class="form-check-input" type="checkbox" name="" id=""> 
+<label class="form-check-label" for="">CheckBox</label>  
+</div>
+
+<hr>
+<hr>
+
+<div class="my-3 form-check form-check-inline">
+<input class="form-check-input" type="checkbox" name="" id=""> 
+<label class="form-check-label" for="">CheckBox 1</label>  
+</div>
+
+<div class="my-3 form-check form-check-inline">
+<input class="form-check-input" type="checkbox" name="" id=""> 
+<label class="form-check-label" for="">CheckBox 2</label>  
+</div>
+
+<div class="my-3 form-check form-check-inline">
+<input class="form-check-input" type="checkbox" name="" id=""> 
+<label class="form-check-label" for="">CheckBox 3</label>  
+</div>
+
+<hr>
+<hr>
+
+<div class="my-3 form-check form-check-inline">
+<input class="btn-check" type="radio" name="Ali" id="btn1"> 
+<label class="btn btn-outline-info" for="btn1">CheckBox 1</label>  
+</div>
+    
+<div class="my-3 form-check form-check-inline">
+<input class="btn-check" type="radio" name="Ali" id="btn2"> 
+<label class="btn btn-outline-info" for="btn2">CheckBox 2</label>  
+</div>
+    
+<div class="my-3 form-check form-check-inline">
+<input class="btn-check" type="radio" name="Ali3" id="btn3"> 
+<label class="btn btn-outline-info" for="btn3">CheckBox 3</label>  
+</div>
+
+<hr>
+<hr>
+
 <div>
-<input type="submit" class="btn btn-success" value="Send">  
+<input type="submit" class="btn btn-success" value="send">    
 </div>
 
 </form>  
