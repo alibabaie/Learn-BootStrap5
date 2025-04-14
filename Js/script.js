@@ -1,3 +1,5 @@
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(
-    tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+function ChangePrice () {
+    var addad = document.getElementById('myInput').value;
+    document.getElementById('myPrice').innerHTML = addad
+}
