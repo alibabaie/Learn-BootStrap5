@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./Bootstrap_Icons/bootstrap-icons.css">
+    <title>CodeYad</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class="row g-3 ">
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group ">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var inputName = document.getElementById('validationCustom01');
+            inputName.oninvalid = function (e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    e.target.setCustomValidity("لطفا نام را وارد کنید.... ");
+                }
+                }
+
+                var inputName = document.getElementById('validationCustom02');
+                inputName.oninvalid = function (e) {
+                    e.target.setCustomValidity("");
+                    if (!e.target.validity.valid) {
+                        e.target.setCustomValidity("لطفا نام خانوادگی را وارد کنید.... ");
+                    }
+                    }
+
+            })
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
