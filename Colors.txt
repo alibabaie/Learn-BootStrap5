@@ -1,0 +1,14 @@
+#f0f2f5    body
+
+#1c1e21  text
+
+#1877f2  primary
+
+#365899  primary-hover
+
+#36a420  success
+
+#42b72a    success-hover
+
+
+#8a8d91   text-footer
