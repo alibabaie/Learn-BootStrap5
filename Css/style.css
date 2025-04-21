@@ -72,6 +72,14 @@ a{
    text-decoration: none; 
 }
 
+.my-text-blue{
+    color: var(--my-color-blue) !important ;
+}
+
+.my-text-green{
+    color: var(--my-color-green) !important ;
+}
+
 .my-blue-button{
 padding: 12px 5px;
 border-radius: 15px;  
@@ -94,4 +102,12 @@ background-color: var(--my-color-blue-hover);
     
     .my-green-button:hover{
     background-color: var(--my-color-green-hover);    
+    }
+
+    .img-logo{
+    height: 35px;    
+    }
+
+    .img-drop-basket{
+height: 50px;        
     }
