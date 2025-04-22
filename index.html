@@ -45,7 +45,7 @@
 
     <!-- s1 end-top-header -->
 
-    <!-- s2 start-header -->
+    <!-- s2,3 start-header -->
 
     <div class="container sticky-top">
         <nav class="navbar bg-body-tertiary navbar-expand-md">
@@ -58,7 +58,7 @@
                     <img src="./img/logo.png" alt="" class="img-logo">
                 </a>
                 <div class="d-flex order-1">
-                    <div class="p-1 dropdown dropstart">
+                    <div class="p-1 dropdown ">
                         <a href="#" class="p-1 position-relative" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="bi bi-basket-fill my-text-green fs-4"></i>
@@ -66,13 +66,15 @@
                                 3
                             </span>
                         </a>
-                        <ul class="dropdown-menu bg-dark p-2">
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark p-2">
                             <li class="dropdown-item">
                                 <div class="d-flex align-items-center">
                                     <img src="./img/Product/350/07.jpg" class="img-drop-basket rounded" alt="">
                                     <span class="text-light my-text-blue mx-3">محصول یکم</span>
                                     <span class="me-2 my-text-green">25,000</span>
-                                    <span class="bi bi-x-circle-fill text-danger"></span>
+                                    <a href="#">
+                                        <span class="bi bi-x-circle-fill text-danger"></span>
+                                    </a>
                                 </div>
                             </li>
                             <li class="dropdown-item">
@@ -80,7 +82,9 @@
                                     <img src="./img/Product/350/08.jpg" class="img-drop-basket rounded" alt="">
                                     <span class="text-light my-text-blue mx-3">محصول یکم</span>
                                     <span class="me-2 my-text-green">25,000</span>
-                                    <span class="bi bi-x-circle-fill text-danger"></span>
+                                    <a href="#">
+                                        <span class="bi bi-x-circle-fill text-danger"></span>
+                                    </a>
                                 </div>
                             </li>
                             <li class="dropdown-item">
@@ -88,12 +92,29 @@
                                     <img src="./img/Product/350/01.jpg" class="img-drop-basket rounded" alt="">
                                     <span class="text-light my-text-blue mx-3">محصول یکم</span>
                                     <span class="me-2 my-text-green">25,000</span>
-                                    <span class="bi bi-x-circle-fill text-danger"></span>
+                                    <a href="#">
+                                        <span class="bi bi-x-circle-fill text-danger"></span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li class="dropdown-item">
+                                <div class="d-flex justify-content-around">
+                                    <span class="my-text-blue">جمع کل : </span>
+                                    <span class="my-text-green">75000 تومان</span>
+                                </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li class="dropdown-item">
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="btn btn-info">ادامه و پرداخت</a>
+                                    <a href="#" class="btn btn-danger">انصراف</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="p-1">
+                    <div class="p-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="لیست علاقه مندی ها">
                         <a href="#" class="p-1 position-relative">
                             <i class="bi bi-heart-fill text-danger fs-4"></i>
                             <span
@@ -111,29 +132,69 @@
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">فروشگاه</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">خانه</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">فروشگاه</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    Dropdown
+                                    دسته بندی ها
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <div class="dropdown-navbar">
+                                        <div class="row p-3">
+                                            <div class="col-12 col-md-4">
+                                                <p class="fw-bold my-2">موبایل و کامپیوتر</p>
+                                                <li class="dropdown-item">
+                                                    <a href="#">موبایل</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">کامپیوتر</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">لپ تاپ</a>
+                                                </li>
+                                                <p class="fw-bold my-2">موبایل و کامپیوتر</p>
+                                                <li class="dropdown-item">
+                                                    <a href="#">موبایل</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">کامپیوتر</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <p class="fw-bold my-2">موبایل و کامپیوتر</p>
+                                                <li class="dropdown-item">
+                                                    <a href="#">موبایل</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">کامپیوتر</a>
+                                                </li>
+                                                <p class="fw-bold my-2">موبایل و کامپیوتر</p>
+                                                <li class="dropdown-item">
+                                                    <a href="#">موبایل</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">کامپیوتر</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a href="#">لپ تاپ</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <img src="./img/gallery/mountain3.webp" class="img-fluid rounded mt-2"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </ul>
                             </li>
                         </ul>
@@ -159,7 +220,55 @@
         </div>
     </div>
 
-    <!-- s2 end-header -->
+    <!-- s2,3 end-header -->
+    <div class="faseleh"></div>
+    <!-- s3 start-main -->
+
+    <div class="container bg-light py-3">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/slider/slider-1.jpg" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/slider/slider-2.jpg" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/slider/slider-3.jpg" class="d-block w-100 rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/slider/slider-6.jpg" class="d-block w-100 rounded" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="./img/slider/slider-3.jpg" class="rounded img-fluid mt-2" alt="">
+                <img src="./img/slider/slider-6.jpg" class="rounded img-fluid mt-2" alt="">
+            </div>
+        </div>
+        <div class="faseleh"></div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img src="./img/slider/slider-2.jpg" class="rounded img-fluid mt-2" alt="">
+                    <img src="./img/slider/slider-1.jpg" class="rounded img-fluid mt-2" alt="">
+                </div>
+                <div class="col-12 col-md-8">
+                    
+                </div>
+            </div>
+    </div>
+
+
+    <!-- s3 end-main -->
 
 
     <script src="./BootStrap/Js/bootstrap.bundle.min.js"></script>
