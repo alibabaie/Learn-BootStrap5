@@ -160,6 +160,39 @@ border-bottom:  2px solid transparent;
 width: 10% !important;
 }
 
+.img-bg-news{
+height: 200px;
+}
+
+.a-footer{
+    color: var(--my-text);
+}
+
+.a-footer:hover{
+    color: var(--my-footer-text);
+}
+
+.text-purple{
+    color: purple;
+}
+
+.footer-about{
+    background-color: var(--my-body);
+}
+
+.footer-about p{
+    color: var(--my-text);
+}
+
+.footer-about a{
+    color: var(--my-footer-text);
+}
+
+.footer-about a:hover{
+    color: var(--my-color-blue);
+}
+
+
 @media(max-width:767px){
     .dropdown-navbar{
         width: 200px;
