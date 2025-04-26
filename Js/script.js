@@ -16,6 +16,32 @@ document.addEventListener('click',function(e){
         const myModal = new bootstrap.Modal(document.getElementById('myModal'));
         myModal.show();
     }
-        
-    
+         
 })
+
+// input Price Change
+
+function changeMin () {
+    var val = document.getElementById('customRange1').value;
+    document.getElementById('minPrice').innerHTML = separate(val) + "تومان";
+}
+
+function changeMax () {
+    var val = document.getElementById('customRange2').value;
+    document.getElementById('maxPrice').innerHTML = separate(val) + "تومان";
+}
+
+// جداکردن 3 رقم
+
+function separate(Number) 
+{
+Number+= '';
+Number= Number.replace(',', '');
+x = Number.split('.');
+y = x[0];
+z= x.length > 1 ? '.' + x[1] : '';
+var rgx = /(\d+)(\d{3})/;
+while (rgx.test(y))
+y= y.replace(rgx, '$1' + ',' + '$2');
+return y+ z;
+}
