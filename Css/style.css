@@ -81,7 +81,7 @@ a{
 }
 
 .my-blue-button{
-padding: 12px 5px;
+padding: 7px  15px;
 border-radius: 15px;  
 border: 1px solid var(--my-color-blue); 
 background-color: var(--my-color-blue); 
@@ -190,6 +190,16 @@ height: 200px;
 
 .footer-about a:hover{
     color: var(--my-color-blue);
+}
+
+.detail-product li{
+    font-size: 12px;
+}
+
+.color-product{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
 

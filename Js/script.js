@@ -45,3 +45,19 @@ while (rgx.test(y))
 y= y.replace(rgx, '$1' + ',' + '$2');
 return y+ z;
 }
+
+// input product
+
+function minusProduct () {
+var val = parseInt (document.getElementById('input-product').value) ;
+if(val > 1){
+    document.getElementById('input-product').value = val - 1 ;
+}
+}
+
+function plusProduct () {
+    var val = parseInt (document.getElementById('input-product').value) ;
+if(val < 10){
+    document.getElementById('input-product').value = val + 1 ;
+}
+}
