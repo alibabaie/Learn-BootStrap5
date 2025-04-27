@@ -202,6 +202,14 @@ height: 200px;
     border-radius: 50%;
 }
 
+.image-user{
+    width: 80px;
+}
+
+.span-name-comment{
+    margin-right: 45px;
+}
+
 
 @media(max-width:767px){
     .dropdown-navbar{
@@ -211,6 +219,14 @@ height: 200px;
     .faseleh{
         width: 100%;
         height: 15px;
+    }
+
+    .image-user{
+        width: 60px;
+    }
+
+    .span-name-comment{
+        margin-right: 20px;
     }
 }
 
