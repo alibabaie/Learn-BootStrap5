@@ -210,6 +210,16 @@ height: 200px;
     margin-right: 45px;
 }
 
+.div-description{
+    height: 250px;
+}
+
+.body-account{
+    background-image: url(../img/Login.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
 
 @media(max-width:767px){
     .dropdown-navbar{
