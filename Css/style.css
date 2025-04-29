@@ -93,7 +93,7 @@ background-color: var(--my-color-blue-hover);
 }
 
 .my-green-button{
-    padding: 12px 5px;
+    padding: 7px  15px;
     border-radius: 15px;  
     border: 1px solid var(--my-color-green); 
     background-color: var(--my-color-green); 
@@ -220,6 +220,13 @@ height: 200px;
     background-repeat: no-repeat;
 }
 
+.my-div-back{
+    height: 150px;
+    background-image: url(../img/aaa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 @media(max-width:767px){
     .dropdown-navbar{
@@ -237,6 +244,10 @@ height: 200px;
 
     .span-name-comment{
         margin-right: 20px;
+    }
+
+    .account-div{
+        width: 75% !important;
     }
 }
 
