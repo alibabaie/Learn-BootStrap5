@@ -9,3 +9,20 @@
 body{
     background-color: var(--my-light);
 }
+
+#preloader{
+    background-color: var(--my-khaki);
+}
+
+#loader{
+    border-top-color: var(--my-dark-purple);
+}
+
+#loader:before{
+    border-top-color: var(--my-dark);
+
+}
+
+#loader:after{
+    border-top-color: var(--my-purple);
+}

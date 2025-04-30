@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: iranyekan;
+    font-family: iranyekanBold;
     font-style: normal;
     font-weight: bold;
     src: url('../fonts/iranyekan/eot/iranyekanwebbold(fanum).eot');
@@ -16,7 +16,7 @@
 @font-face {
     font-family: iranyekan;
     font-style: normal;
-    font-weight: 300;
+    font-weight: normal;
     src: url('../fonts/iranyekan/eot/iranyekanweblight(fanum).eot');
     src: url('../fonts/iranyekan/eot/iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),
         /* IE6-8 */
@@ -46,3 +46,82 @@
     font-family: iranyekan;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: iranyekanBold;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Css Loader Styles */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    right: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px -75px 0px 0px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
