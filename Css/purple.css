@@ -34,3 +34,32 @@ body{
 .header button{
     color: var(--my-light);
 }
+
+.dropdown-menu{
+    background-color: var(--my-dark-purple) !important;
+    color: var(--my-light) !important;
+}
+
+
+.custom-dropdown .custom-notifications > li > a .text{
+    color: var(--my-light);
+}
+
+.custom-dropdown .custom-notifications > li > a .text strong {
+    color: var(--my-khaki);
+}
+
+.custom-dropdown .custom-notifications > li.unread a:hover{
+background-color: var(--my-purple);
+border-radius: 0 15px 15px 0;
+}
+
+.custom-dropdown .btn.btn-custom {
+    border: 1px solid var(--my-light);
+  }
+
+  .text-notification{
+    color: var(--my-light);
+  }
+
+ 

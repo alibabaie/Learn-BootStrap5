@@ -14,4 +14,12 @@
     .my-canvas{
         width: 300px !important;
        }
+
+       .custom-dropdown .dropdown-menu{
+        width: 260px;
+       }
+
+       .custom-dropdown .custom-notifications > li > a .text{
+        font-size: 13px;
+       }
 }
