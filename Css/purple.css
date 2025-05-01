@@ -26,3 +26,11 @@ body{
 #loader:after{
     border-top-color: var(--my-purple);
 }
+
+.header{
+    background-color: var(--my-purple);
+}
+
+.header button{
+    color: var(--my-light);
+}

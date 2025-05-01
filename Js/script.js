@@ -1,5 +1,5 @@
 $ (function(){
-setTimeout(LoadingEnd,3000);
+setTimeout(LoadingEnd,1000);
 })
 
 function LoadingEnd () {
