@@ -1,0 +1,21 @@
+@media (max-width:400px){
+    .logo{
+        width: 120px;
+    }
+    .header button{
+        font-size: 25px;
+        }
+        .search-container{
+            height: 30px;
+        }
+        .search-container:hover > .search-input{
+            width: 150px;
+        }
+        .header{
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+       .my-canvas{
+        width: 250px !important;
+       }
+}

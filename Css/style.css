@@ -201,4 +201,8 @@ border: 0px;
 
 /* end search box */
 
+.my-canvas{
+    width: 350px !important;
+   }
+
 /* end header */

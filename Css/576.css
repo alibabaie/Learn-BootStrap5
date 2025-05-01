@@ -1,3 +1,17 @@
 @media (max-width:576px){
-
+.logo{
+    width: 180px;
+}
+.header button{
+    font-size: 30px;
+    }
+    .search-container{
+        height: 35px;
+    }
+    .search-container:hover > .search-input{
+        width: 250px;
+    }
+    .my-canvas{
+        width: 300px !important;
+       }
 }
