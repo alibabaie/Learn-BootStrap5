@@ -310,6 +310,49 @@ border: 0px;
 
    /* end dropdown */
 
+   .close-btn{
+    padding: 3px;
+    border-radius: 50%;
+   }
+
+   .close-btn i.bi{
+    font-size: 18px;
+   }
+
+   .my-canvas{
+    width: 300px !important;
+   }
+
+   .offcanvas-end{
+    border-radius: 0 15px 15px 0;
+   }
+
+   .offcanvas-end .offcanvas-body {
+    border-radius: 0 15px 15px 0;
+   }
+
+   .link-user{
+    border-radius: 15px;
+    padding: 5px;
+   }
+
+   .link-user li{
+    padding: 5px  10px;
+    border-radius: 10px;
+    transition: background-color ease ;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+   }
+
+   .link-user li a{
+    text-decoration: none;
+    font-weight: bold;
+   }
+
+   .link-user li a i{
+    font-size:22px;
+   }
+
 /* end header */
 
 

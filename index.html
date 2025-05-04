@@ -2,180 +2,204 @@
 <html dir="rtl" lang="fa">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./BootStrap/Css/bootstrap-reboot.min.css"> -->
-    <link rel="stylesheet" href="./BootStrap/Css/bootstrap-reboot.rtl.min.css">
-    <!-- <link rel="stylesheet" href="./BootStrap/Css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="./BootStrap/Css/bootstrap.rtl.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" href="./Css/1200.css">
-    <link rel="stylesheet" href="./Css/992.css">
-    <link rel="stylesheet" href="./Css/768.css">
-    <link rel="stylesheet" href="./Css/576.css">
-    <link rel="stylesheet" href="./Css/400.css">
-    <link rel="stylesheet" href="./Css/purple.css">
-    <title>پروژه وب سایت آموزشگاهی</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./BootStrap/Css/bootstrap-reboot.min.css"> -->
+  <link rel="stylesheet" href="./BootStrap/Css/bootstrap-reboot.rtl.min.css">
+  <!-- <link rel="stylesheet" href="./BootStrap/Css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="./BootStrap/Css/bootstrap.rtl.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./BootStrap/Icons/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="stylesheet" href="./Css/1200.css">
+  <link rel="stylesheet" href="./Css/992.css">
+  <link rel="stylesheet" href="./Css/768.css">
+  <link rel="stylesheet" href="./Css/576.css">
+  <link rel="stylesheet" href="./Css/400.css">
+  <link rel="stylesheet" href="./Css/purple.css">
+  <title>پروژه وب سایت آموزشگاهی</title>
 </head>
 
 <body>
-    <!-- s1 start loader -->
+  <!-- s1 start loader -->
 
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
 
-    <!-- s1 end loader -->
+  <!-- s1 end loader -->
 
-    <!-- s2,s3,s4 start header -->
+  <!-- s2,s3,s4,s5 start header -->
 
-    <header>
-        <nav class="fixed-top px-3 header">
-            <ul class="list-unstyled d-flex justify-content-between align-items-center">
-                <li class="d-flex">
-                    <button type="button" class="rotate-vert-center" 
-                     data-bs-toggle="offcanvas"
-                     data-bs-target="#offcanvasScrolling"
-                     aria-controls="offcanvasScrolling">
-                        <i class="bi bi-menu-button-wide-fill"></i>
-                    </button>
+  <header>
+    <nav class="fixed-top px-1 header">
+      <ul class="list-unstyled d-flex justify-content-between align-items-center">
+        <li class="d-flex">
+          <button type="button" class="rotate-vert-center" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <i class="bi bi-menu-button-wide-fill"></i>
+          </button>
 
-                    <div class="search-container">
-                        <input type="text" name="search" placeholder="Search..." class="search-input">
-                        <a href="#" class="search-btn">
-                            <i class="bi bi-search"></i>
-                        </a>
+          <div class="search-container">
+            <input type="text" name="search" placeholder="Search..." class="search-input">
+            <a href="#" class="search-btn">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a href="index.html"></a>
+          <img src="./img/logo.png" class="logo" alt="">
+        </li>
+        <li class="d-flex">
+
+          <div class="dropdown custom-dropdown">
+            <button type="button" data-bs-toggle="dropdown" id="dropdownMenuButton">
+              <i class="bi bi-bell-fill"></i>
+            </button>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <div class="title-wrap d-flex align-items-center">
+                <h3 class="title mb-0">اعلان ها</h3>
+
+              </div>
+
+              <ul class="custom-notifications">
+
+                <li class="unread">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="img me-3">
+                      <img src="./img/Courses/angular.jpg" alt="Image" class="img-fluid">
                     </div>
-                </li>
-                <li>
-                    <a href="index.html"></a>
-                    <img src="./img/logo.png" class="logo" alt="">
-                </li>
-                <li class="d-flex">
-                    
-                    <div class="dropdown custom-dropdown">
-                        <button type="button" data-bs-toggle="dropdown" id="dropdownMenuButton">
-                            <i class="bi bi-bell-fill"></i>
-                        </button>
-
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                            <div class="title-wrap d-flex align-items-center">
-                              <h3 class="title mb-0">اعلان ها</h3>
-                              
-                            </div>
-              
-                            <ul class="custom-notifications">
-
-                              <li class="unread">
-                                <a href="#" class="d-flex align-items-center">
-                                  <div class="img me-3">
-                                    <img src="./img/Courses/angular.jpg" alt="Image" class="img-fluid">
-                                  </div>
-                                  <div class="text">
-                                   جلسه جدید <strong>انگولار</strong> منتشر شد
-                                  </div>
-                                </a>
-                              </li>
-
-                              <li class="unread">
-                                <a href="#" class="d-flex align-items-center">
-                                  <div class="img me-3">
-                                    <img src="./img/Courses/api.jpg" alt="Image" class="img-fluid">
-                                  </div>
-                                  <div class="text">
-                                   جلسه جدید <strong>rest api</strong> منتشر شد
-                                  </div>
-                                </a>
-                              </li>
-
-                              <li class="unread">
-                                <a href="#" class="d-flex align-items-center">
-                                  <div class="img me-3">
-                                    <img src="./img/Courses/bootatrap.jpg" alt="Image" class="img-fluid">
-                                  </div>
-                                  <div class="text">
-                                   جلسه جدید <strong>bootstrap</strong> منتشر شد
-                                  </div>
-                                </a>
-                              </li>
-
-                              <li class="unread">
-                                <a href="#" class="d-flex align-items-center">
-                                  <div class="img me-3">
-                                    <img src="./img/Courses/core.jpg" alt="Image" class="img-fluid">
-                                  </div>
-                                  <div class="text">
-                                   جلسه جدید <strong>asp.net</strong> منتشر شد
-                                  </div>
-                                </a>
-                              </li>
-
-                              <li class="unread">
-                                <a href="#" class="d-flex align-items-center">
-                                  <div class="img me-3">
-                                    <img src="./img/Courses/react.jpg" alt="Image" class="img-fluid">
-                                  </div>
-                                  <div class="text">
-                                   جلسه جدید <strong>react</strong> منتشر شد
-                                  </div>
-                                </a>
-                              </li>
-
-              
-                              
-                            </ul>
-                            <p class="text-center m-0 p-0"><a href="#" class="small text-notification">همه ی اعلان ها</a></p>
-    
-                          </div>
+                    <div class="text">
+                      جلسه جدید <strong>انگولار</strong> منتشر شد
                     </div>
-
-                    <button type="button" class="rotate-vert-center"
-                    data-bs-toggle="offcanvas" 
-                    data-bs-target="#offcanvasUser"
-                    aria-controls="offcanvasScrolling">
-                        <i class="bi bi-person-circle"></i>
-                    </button>
+                  </a>
                 </li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="offcanvas offcanvas-start my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
-        </div>
+                <li class="unread">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="img me-3">
+                      <img src="./img/Courses/api.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="text">
+                      جلسه جدید <strong>rest api</strong> منتشر شد
+                    </div>
+                  </a>
+                </li>
+
+                <li class="unread">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="img me-3">
+                      <img src="./img/Courses/bootatrap.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="text">
+                      جلسه جدید <strong>bootstrap</strong> منتشر شد
+                    </div>
+                  </a>
+                </li>
+
+                <li class="unread">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="img me-3">
+                      <img src="./img/Courses/core.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="text">
+                      جلسه جدید <strong>asp.net</strong> منتشر شد
+                    </div>
+                  </a>
+                </li>
+
+                <li class="unread">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="img me-3">
+                      <img src="./img/Courses/react.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="text">
+                      جلسه جدید <strong>react</strong> منتشر شد
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+              <p class="text-center m-0 p-0"><a href="#" class="small text-notification">همه ی اعلان ها</a></p>
+
+            </div>
+          </div>
+
+          <button type="button" class="rotate-vert-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUser"
+            aria-controls="offcanvasScrolling">
+            <i class="bi bi-person-circle"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="offcanvas offcanvas-start my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-
-    <div class="offcanvas offcanvas-end my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-        id="offcanvasUser" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
-        </div>
+    <div class="offcanvas-body">
+      <p>Try scrolling the rest of the page to see this option in action.</p>
     </div>
+  </div>
 
-    <!-- s2,s3,s4 end header -->
+  <div class="offcanvas offcanvas-end my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasUser" aria-labelledby="offcanvasScrollingLabel">
+
+    <div class="offcanvas-body">
+      <button type="button" class="float-start close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="bi bi-x"></i>
+      </button>
+      <div class="px-3 mb-2 text-center">
+        <img src="./img/download.jfif" class="img-fluid rounded-circle" alt="">
+      </div>
+      <div class="link-user px-3">
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>ثبت نام</span>
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>ثبت نام</span>
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>ثبت نام</span>
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- s2,s3,s4,s5 end header -->
 
 
-    <script src="./BootStrap/Js/bootstrap.bundle.min.js"></script>
-    <script src="./Js/jquery.min.js"></script>
-    <script src="./Js/script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="./BootStrap/Js/bootstrap.bundle.min.js"></script>
+  <script src="./Js/jquery.min.js"></script>
+  <script src="./Js/script.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>

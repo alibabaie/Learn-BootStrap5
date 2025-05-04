@@ -62,4 +62,40 @@ border-radius: 0 15px 15px 0;
     color: var(--my-light);
   }
 
+  .offcanvas-body{
+background-color: var(--my-purple);
+  }
+
+  .close-btn{
+    background-color: var(--my-purple);
+    border-color: var(--my-light);
+  }
+
+  .close-btn:hover{
+    background-color: var(--my-light);
+    border-color: var(--my-purple);
+  }
+
+  .close-btn:hover > i.bi{
+    color: var(--my-purple);
+  }
+
+  .close-btn i.bi{
+    color: var(--my-light);
+  }
+
+  .link-user{
+    background-color: var(--my-dark-purple);
+  }
+
+  .link-user li:hover{
+    background-color: var(--my-purple);
+  }
+
+  .link-user li a{
+    color: var(--my-light);
+  }
+
+
+
  
