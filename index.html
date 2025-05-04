@@ -31,7 +31,7 @@
 
   <!-- s1 end loader -->
 
-  <!-- s2,s3,s4,s5 start header -->
+  <!-- s2,s3,s4,s5,s6 start header -->
 
   <header>
     <nav class="fixed-top px-1 header">
@@ -138,16 +138,97 @@
     </nav>
   </header>
 
+  <!-- offcanvas right -->
+
   <div class="offcanvas offcanvas-start my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
     id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="offcanvas-header justify-content-between">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">آموزشگاه ...</h5>
+      <button type="button" class="float-start close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="bi bi-x"></i>
+      </button>
     </div>
     <div class="offcanvas-body">
-      <p>Try scrolling the rest of the page to see this option in action.</p>
+      <div class="menu-site">
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>خانه</span>
+                <i class="bi bi-house-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>دوره ها</span>
+                <i class="bi bi-film"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>طراحی سایت</span>
+                <i class="bi bi-easel-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>TV ...</span>
+                <i class="bi bi-easel-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>مجله خبری</span>
+                <i class="bi bi-newspaper"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>نقشه راه</span>
+                <i class="bi bi-diagram-3-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>رایگان</span>
+                <i class="bi bi-emoji-smile-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>برنامه نویسی موبایل</span>
+                <i class="bi bi-phone-vibrate-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>سوالات</span>
+                <i class="bi bi-question-circle-fill"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
+
+  <!-- offcanvas left -->
 
   <div class="offcanvas offcanvas-end my-canvas" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
     id="offcanvasUser" aria-labelledby="offcanvasScrollingLabel">
@@ -157,7 +238,7 @@
         <i class="bi bi-x"></i>
       </button>
       <div class="px-3 mb-2 text-center">
-        <img src="./img/download.jfif" class="img-fluid rounded-circle" alt="">
+        <img src="./img/download.jfif" class="img-fluid rounded-circle user-img" alt="">
       </div>
       <div class="link-user px-3">
         <ul class="list-unstyled">
@@ -165,23 +246,79 @@
             <a href="#">
               <div class="d-flex justify-content-between align-items-center">
                 <span>ثبت نام</span>
-                <i class="bi bi-person-circle"></i>
+                <i class="bi bi-person-check-fill"></i>
               </div>
             </a>
           </li>
           <li>
             <a href="#">
               <div class="d-flex justify-content-between align-items-center">
-                <span>ثبت نام</span>
-                <i class="bi bi-person-circle"></i>
+                <span>ورود به سایت</span>
+                <i class="bi bi-person-plus"></i>
               </div>
             </a>
           </li>
           <li>
             <a href="#">
               <div class="d-flex justify-content-between align-items-center">
-                <span>ثبت نام</span>
-                <i class="bi bi-person-circle"></i>
+                <span>دوره های شما</span>
+                <i class="bi bi-file-play-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>فاکتورها</span>
+                <i class="bi bi-card-checklist"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>علاقه مندی ها</span>
+                <i class="bi bi-suit-heart-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>کیف پول</span>
+                <i class="bi bi-cash"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>تیکت ها</span>
+                <i class="bi bi-chat-text-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>گفتگو ها</span>
+                <i class="bi bi-chat-dots-fill"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>ویرایش اطلاعات</span>
+                <i class="bi bi-pencil-square"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="d-flex justify-content-between align-items-center">
+                <span>تغییر رمز</span>
+                <i class="bi bi-file-lock2-fill"></i>
               </div>
             </a>
           </li>
@@ -190,7 +327,7 @@
     </div>
   </div>
 
-  <!-- s2,s3,s4,s5 end header -->
+  <!-- s2,s3,s4,s5,s6 end header -->
 
 
   <script src="./BootStrap/Js/bootstrap.bundle.min.js"></script>

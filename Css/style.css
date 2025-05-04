@@ -340,8 +340,9 @@ border: 0px;
     padding: 5px  10px;
     border-radius: 10px;
     transition: background-color ease ;
-    transition-delay: 0.5s;
-    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    margin-top: 5px;
    }
 
    .link-user li a{
@@ -352,6 +353,39 @@ border: 0px;
    .link-user li a i{
     font-size:22px;
    }
+
+   .user-img{
+    border: 10px solid;
+   }
+
+   .menu-site li{
+    margin-top: 3px;
+    padding: 5px 15px;
+   }
+
+   .menu-site li:after{
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.5s ease , background-color 0.5s ease;
+   }
+   .menu-site li:hover:after{
+    width: 100%;
+    background-color: #fefdfd;
+   }
+
+   .menu-site a{
+    text-decoration: none;
+    font-weight: bold;
+   }
+
+   .menu-site li a i{
+    font-size: 22px;
+   }  
 
 /* end header */
 

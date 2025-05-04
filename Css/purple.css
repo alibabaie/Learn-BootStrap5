@@ -96,6 +96,22 @@ background-color: var(--my-purple);
     color: var(--my-light);
   }
 
+  .user-img{
+    border-color: var(--my-dark-purple);
+  }
+
+  .offcanvas-start .offcanvas-header{
+    background-color: var(--my-purple);
+  }
+
+  .offcanvas-start .offcanvas-header h5{
+    color: var(--my-light);
+  }
+
+  .menu-site a{
+    color: var(--my-light);
+  }
+
 
 
  
