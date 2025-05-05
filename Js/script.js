@@ -21,12 +21,17 @@ $('.custom-dropdown').on('show.bs.dropdown', function() {
 
 // start slider 1
 
-$('.owl-carousel').owlCarousel({
+$('#slider-first').owlCarousel({
   loop:true,
   margin:10,
   nav:true,
   rtl:true,
-  items:1
+  items:1,
+  mouseDrag:true,
+  autoplay:true,
+  autoplayTimeout:7000,
+  autoplayHoverPause:true,
+  animateOut:false,
 })
 
 // end slider1

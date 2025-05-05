@@ -1,5 +1,5 @@
 :root{
---my-dark:#010101;
+--my-dark:#23262d;
 --my-purple:#5f43b2;
 --my-light:#fefdfd;
 --my-khaki:#b1aebb;
@@ -118,6 +118,14 @@ background-color: var(--my-purple);
 
 .div-util h5{
   color: var(--my-light);
+}
+
+#slider-first .owl-dots button span{
+  color: var(--my-khaki) !important;
+}
+
+#slider-first .owl-dots button.active span{
+  background-color: var(--my-purple ) !important;
 }
 
  

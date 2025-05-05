@@ -461,4 +461,29 @@ margin-top: 70px;
   height: 110px;
 }
 
+#slider-first img{
+border-radius: 15px;
+}
+
+#slider-first .owl-nav{
+  display: none;
+}
+
+#slider-first .owl-dots{
+  margin-top: 15px;
+}
+
+#slider-first .owl-dots button span{
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.top-back{
+  background-image: url('../img/slice-1-2\ -\ Copy.png');
+  margin: -70px 0;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
 /* end main */
