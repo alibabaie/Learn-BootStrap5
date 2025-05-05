@@ -19,6 +19,18 @@ $('.custom-dropdown').on('show.bs.dropdown', function() {
 
 // end dropdown
 
+// start slider 1
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  rtl:true,
+  items:1
+})
+
+// end slider1
+
 })
 
 function LoadingEnd () {

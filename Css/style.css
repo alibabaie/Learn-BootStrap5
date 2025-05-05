@@ -59,6 +59,7 @@ p{
 
 #preloader {
     position: fixed;
+    z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
@@ -331,6 +332,18 @@ border: 0px;
     border-radius: 0 15px 15px 0;
    }
 
+   .offcanvas-start{
+    border-radius: 15px 0 0 15px;
+   }
+
+   .offcanvas-start .offcanvas-body{
+    border-radius: 0 0 0 15px;
+   }
+
+   .offcanvas-start .offcanvas-header{
+    border-radius: 15px 0 0 0px;
+   }
+
    .link-user{
     border-radius: 15px;
     padding: 5px;
@@ -393,8 +406,8 @@ border: 0px;
 /* animate rotate start */
 
 .rotate-vert-center:hover {
-	-webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	-webkit-animation: rotate-vert-center 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-vert-center 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
 /* ----------------------------------------------
@@ -432,3 +445,20 @@ border: 0px;
   
 
 /* animate rotate end */
+
+/* start main */
+
+.main{
+margin-top: 70px;
+}
+
+.div-util{
+  border-radius: 20px;
+  height: 80px;
+}
+
+.div-util img{
+  height: 110px;
+}
+
+/* end main */
