@@ -461,6 +461,8 @@ margin-top: 70px;
   height: 110px;
 }
 
+/* start slider first */
+
 #slider-first img{
 border-radius: 15px;
 }
@@ -478,12 +480,44 @@ border-radius: 15px;
   height: 15px !important;
 }
 
+/* end slider first */
+
 .top-back{
   background-image: url('../img/slice-1-2\ -\ Copy.png');
-  margin: -70px 0;
+  margin-top: -170px;
   height: 200px;
   background-size: cover;
   background-position: center;
 }
+
+/* start slider two */
+
+#slider-second .item{
+  border-radius: 20px;
+}
+
+#slider-second .item img{
+  width: 50% !important;
+  border-radius: 20px 0 0 20px;
+}
+
+#slider-second .item .slider-text{
+  text-align: center;
+}
+
+#slider-second .owl-nav{
+  display: none;
+}
+
+#slider-second .owl-dots{
+  margin-top: 15px;
+}
+
+#slider-second .owl-dots button span{
+  width: 15px !important;
+  height: 15px !important;
+}
+
+/* end slider two */
 
 /* end main */

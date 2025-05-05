@@ -128,4 +128,29 @@ background-color: var(--my-purple);
   background-color: var(--my-purple ) !important;
 }
 
+.slider-two{
+background-color: var(--my-dark);
+}
+
+#slider-second .item{
+  color: var(--my-light) !important;
+  background-color: var(--my-purple);
+}
+
+#slider-second .slider-text{
+  background-color: transparent;
+}
+
+#slider-second .slider-text i{
+  color: var(--my-khaki);
+}
+
+#slider-second .owl-dots button span{
+  color: var(--my-khaki) !important;
+}
+
+#slider-second .owl-dots button.active span{
+  background-color: var(--my-purple ) !important;
+}
+
  

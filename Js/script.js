@@ -29,12 +29,31 @@ $('#slider-first').owlCarousel({
   items:1,
   mouseDrag:true,
   autoplay:true,
-  autoplayTimeout:7000,
+  autoplayTimeout:3000,
   autoplayHoverPause:true,
   animateOut:false,
+  smartSpeed:1500
 })
 
 // end slider1
+
+// start slider seccond
+
+$('#slider-second').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  rtl:true,
+  items:1,
+  mouseDrag:true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  animateOut:false,
+  smartSpeed:1200
+})
+
+// end slider seccond
 
 })
 

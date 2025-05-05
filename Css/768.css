@@ -10,4 +10,13 @@
        .custom-dropdown .custom-notifications > li > a .text{
         font-size: 15px;
        }
+
+       .div-util{
+        border-radius: 20px;
+        height: 65px;
+      }
+      
+      .div-util img{
+        height: 95px;
+      }
 }
