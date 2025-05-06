@@ -490,6 +490,14 @@ border-radius: 15px;
   background-position: center;
 }
 
+.bottem-back{
+  background-image: url('../img/slice-1-2.png');
+  margin-bottom: -170px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
 /* start slider two */
 
 #slider-second .item{
@@ -518,6 +526,58 @@ border-radius: 15px;
   height: 15px !important;
 }
 
+.slider-title{
+  margin-bottom: 25px !important;
+}
+
+.slider-title h3:before{
+  display: block;
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 120px;
+  margin: 43px 0 0 0;
+}
+
+.slider-title h3:after{
+  display: block;
+  position: relative;
+  content: '';
+  height: 4px;
+  width: 173px;
+  margin: 21px 0 0 0;
+}
+
 /* end slider two */
+
+/* start slider three */
+
+#slider-three .item{
+  border-radius: 20px;
+}
+
+#slider-three .item img{
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 10px;
+}
+
+#slider-three .item .slider-text{
+  text-align: center;
+}
+
+#slider-three .owl-nav{
+  display: none;
+}
+
+#slider-three .owl-dots{
+  margin-top: 15px;
+}
+
+#slider-three .owl-dots button span{
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* end slider three */
 
 /* end main */

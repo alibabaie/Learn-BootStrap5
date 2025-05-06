@@ -153,4 +153,21 @@ background-color: var(--my-dark);
   background-color: var(--my-purple ) !important;
 }
 
+.slider-title h3{
+  color: var(--my-light) !important;
+}
+
+.slider-title h3:before{
+  background: var(--my-purple);
+}
+
+.slider-title h3:after{
+  background: var(--my-khaki);
+}
+
+#slider-three .item{
+  color: var(--my-light);
+  background-color: var(--my-dark-purple);
+}
+
  
