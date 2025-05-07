@@ -2,4 +2,8 @@
     .my-canvas{
         width: 300px !important;
        }
+
+       .slider-two .col-lg-9{
+        margin-bottom: 20px;
+      }
 }

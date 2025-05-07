@@ -132,9 +132,13 @@ background-color: var(--my-purple);
 background-color: var(--my-dark);
 }
 
+#slider-second .item a{
+  color: var(--my-dark) !important;
+}
+
 #slider-second .item{
-  color: var(--my-light) !important;
-  background-color: var(--my-purple);
+  color: var(--my-dark) !important;
+  background-color: var(--my-light);
 }
 
 #slider-second .slider-text{
@@ -142,7 +146,7 @@ background-color: var(--my-dark);
 }
 
 #slider-second .slider-text i{
-  color: var(--my-khaki);
+  color: var(--my-purple);
 }
 
 #slider-second .owl-dots button span{
@@ -166,8 +170,17 @@ background-color: var(--my-dark);
 }
 
 #slider-three .item{
-  color: var(--my-light);
-  background-color: var(--my-dark-purple);
+  color: var(--my-dark);
+  background-color: var(--my-light);
+}
+
+#slider-three .slider-text i{
+  color: var(--my-purple);
+}
+
+#slider-three .owl-nav button{
+  color: var(--my-purple);
+  background-color: var(--my-khaki);
 }
 
  
