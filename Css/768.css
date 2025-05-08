@@ -28,4 +28,8 @@
       #slider-second .item .slider-text{
         padding: 20px 0;
       }
+
+      .section-shuttle .row h4{
+        margin-top: 10px !important;
+      }
 }

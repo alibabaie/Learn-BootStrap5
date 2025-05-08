@@ -485,6 +485,7 @@ border-radius: 15px;
 .top-back{
   background-image: url('../img/slice-1-2\ -\ Copy.png');
   margin-top: -170px;
+  margin-bottom: -5px;
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -493,6 +494,7 @@ border-radius: 15px;
 .bottem-back{
   background-image: url('../img/slice-1-2.png');
   margin-bottom: -170px;
+  margin-top: -5px;
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -583,11 +585,13 @@ border-radius: 15px;
 #slider-three .owl-nav button.owl-prev{
   border-radius: 0 10px 10px 0 !important;
   float: right !important;
+  margin-right: -15px;
 }
 
 #slider-three .owl-nav button.owl-next{
   border-radius: 10px 0 0 10px !important;
   float: left !important;
+  margin-left: -15px;
 }
 
 #slider-three .owl-nav button span{
@@ -596,5 +600,25 @@ border-radius: 15px;
 }
 
 /* end slider three */
+
+/* start section shuttle */
+
+.section-shuttle .row{
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  text-align: center !important;
+}
+
+.section-shuttle .row p{
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.section-shuttle .row h4{
+  font-weight: bold;
+}
+
+/* end section shuttle */
 
 /* end main */

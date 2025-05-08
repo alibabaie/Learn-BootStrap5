@@ -183,4 +183,8 @@ background-color: var(--my-dark);
   background-color: var(--my-khaki);
 }
 
+.section-shuttle .row{
+  background-color: #fefdfdc2 !important;
+}
+
  
