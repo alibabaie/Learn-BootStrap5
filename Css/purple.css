@@ -4,6 +4,7 @@
 --my-light:#fefdfd;
 --my-khaki:#b1aebb;
 --my-dark-purple:#3a3153;
+--my-purple-light:#7a61c4;
 }
 
 body{
@@ -169,6 +170,18 @@ background-color: var(--my-dark);
   background: var(--my-khaki);
 }
 
+.slider-title-light h3{
+  color: var(--my-dark) !important;
+}
+
+.slider-title-light h3:before{
+  background: var(--my-purple);
+}
+
+.slider-title-light h3:after{
+  background: var(--my-dark-purple);
+}
+
 #slider-three .item{
   color: var(--my-dark);
   background-color: var(--my-light);
@@ -184,7 +197,24 @@ background-color: var(--my-dark);
 }
 
 .section-shuttle .row{
-  background-color: #fefdfdc2 !important;
+  background-color: var(--my-purple-light) !important;
+}
+
+.section-shuttle .row p{
+color: var(--my-light);
+}
+
+.section-shuttle .row h4{
+  color: var(--my-light);
+}
+
+#slider-four .text i{
+  color: var(--my-khaki) !important;
+}
+
+#slider-four .text{
+  background-color: var(--my-purple);
+  color: var(--my-light) !important;
 }
 
  

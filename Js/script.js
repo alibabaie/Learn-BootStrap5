@@ -87,6 +87,38 @@ $('#slider-three').owlCarousel({
 
 // end slider three
 
+// start slider four
+
+$('#slider-four').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  rtl:true,
+  items:1,
+  mouseDrag:true,
+  autoplay:true,
+  autoplayTimeout:4000,
+  autoplayHoverPause:true,
+  animateOut:false,
+  smartSpeed:1500,
+  responsive:{
+    0:{
+        items:1
+    },
+    576:{
+        items:2
+    },
+    768:{
+        items:3
+    },
+    992:{
+        items:4
+    }
+}
+})
+
+// end slider four
+
 })
 
 function LoadingEnd () {
