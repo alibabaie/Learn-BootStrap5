@@ -35,4 +35,8 @@
       .div-util img{
         height: 70px;
       }
+
+      #slider-four .item .text span{
+        font-size: 11px;
+      }
 }

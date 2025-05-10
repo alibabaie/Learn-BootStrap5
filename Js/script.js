@@ -108,6 +108,10 @@ $('#slider-four').owlCarousel({
   autoplayHoverPause:true,
   animateOut:false,
   smartSpeed:1500,
+  navText:[
+    '<span class="fs-3 fw-bold bi bi-chevron-double-right"></span>',
+    '<span class="fs-3 fw-bold bi bi-chevron-double-left"></span>'
+  ],
   responsive:{
     0:{
         items:1

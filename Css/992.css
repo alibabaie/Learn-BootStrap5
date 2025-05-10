@@ -10,4 +10,8 @@
       .section-shuttle .row{
         padding: 20px !important;
       }
+
+      #slider-four .item .text span{
+        font-size: 11px;
+      }
 }

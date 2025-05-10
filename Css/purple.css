@@ -196,6 +196,11 @@ background-color: var(--my-dark);
   background-color: var(--my-khaki);
 }
 
+#slider-three .owl-nav button:hover{
+  color: var(--my-khaki);
+  background-color: var(--my-purple);
+}
+
 .section-shuttle .row{
   background-color: var(--my-purple-light) !important;
 }
@@ -221,8 +226,13 @@ color: var(--my-light);
   color: var(--my-purple);
 }
 
-.container-slider{
-border-color: var(--my-purple-light);
-background-image: url(../img/curved-layer-2-2.png) !important;
+#slider-four .owl-nav button{
+  color: var(--my-purple);
+  background-color: var(--my-khaki);
+}
+
+#slider-four .owl-nav button:hover{
+  color: var(--my-khaki);
+  background-color: var(--my-purple);
 }
  

@@ -22,4 +22,8 @@
        .custom-dropdown .custom-notifications > li > a .text{
         font-size: 13px;
        }
+
+       #slider-four .item .text span{
+        font-size: 15px;
+      }
 }

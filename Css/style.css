@@ -502,6 +502,11 @@ border-radius: 15px;
 
 /* start slider two */
 
+.slider-two{
+  background-image: url(../img/how-pattern-2.png);
+  background-position: top;
+}
+
 #slider-second .item{
   border-radius: 20px;
 }
@@ -683,27 +688,39 @@ border-radius: 15px;
 }
 
 #slider-four .owl-nav button.owl-prev{
-  border-radius: 10px 0 0 10px !important;
+  border-radius:  0 10px 10px 0 !important;
   float: right !important;
-  margin-right: 0px;
+  margin-right: -40px;
+  width: 40px !important;
+  height: 60px !important;
 }
 
 #slider-four .owl-nav button.owl-next{
-  border-radius: 0 10px 10px 0 !important;
+  border-radius: 10px 0 0 10px  !important;
   float: left !important;
-  margin-left: 0px;
+  margin-left: -40px;
+  width: 40px !important;
+  height: 60px !important;
 }
 
-#slider-four .owl-nav button span{
-  margin: 20px 10px;
-  font-size: 30px;
+#slider-four .item .text h5{
+font-size: 20px;
 }
+
+#slider-four .item .text span{
+  font-size: 15px;
+}
+
 
 .container-slider{
   padding: 0 50px;
   border-radius: 20px;
   margin-top: 20px;
 }
+
+.slider-course{
+  background-image: url(../img/curved-layer-2-2.png) !important;
+  }
 /* end slider four */
 
 /* end main */
