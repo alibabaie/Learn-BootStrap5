@@ -1,4 +1,11 @@
 $ (function(){
+
+  // start tooltip
+
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+// end tooltip
 setTimeout(LoadingEnd,1000);
 
 // start dropdown

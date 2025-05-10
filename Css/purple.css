@@ -217,4 +217,12 @@ color: var(--my-light);
   color: var(--my-light) !important;
 }
 
+#slider-four .image ul.inner-ul li a i{
+  color: var(--my-purple);
+}
+
+.container-slider{
+border-color: var(--my-purple-light);
+background-image: url(../img/curved-layer-2-2.png) !important;
+}
  
